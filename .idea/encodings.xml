@@ -2,25 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/FullTestSuite.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/FullTestSuite.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/FullTestSuite.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/TestFetchWeatherTask.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestDb.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestDb.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestDb.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestPractice.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestProvider.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestProvider.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestUriMatcher.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestUriMatcher.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestUtilities.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestUtilities.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestUtilities.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestWeatherContract.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestWeatherContract.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/utils/PollingCheck.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/utils/PollingCheck.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/utils/PollingCheck.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/FetchWeatherTask.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/data/WeatherProvider.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
