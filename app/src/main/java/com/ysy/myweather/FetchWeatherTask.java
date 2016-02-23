@@ -114,8 +114,9 @@ public class FetchWeatherTask extends AsyncTask<String, Void, String[]> {
 
         // First, check if the location with this city name exists in the db
         Cursor locationCursor = mContext.getContentResolver().query(
-                WeatherContract.LocationEntry.CONTENT_URI, new String[]{WeatherContract.LocationEntry._ID}
-                , WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING + "=?",
+                WeatherContract.LocationEntry.CONTENT_URI,
+                new String[]{WeatherContract.LocationEntry._ID}
+                , WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING + " = ?",
                 new String[]{locationSetting},
                 null
         );
