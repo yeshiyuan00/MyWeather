@@ -12,43 +12,18 @@ public class MainActivity extends ActionBarActivity {
 
     private final String LOG_TAG = MainActivity.class.getSimpleName();
 
+    private final String FORECASTFRAGMENT_TAG = "FFTAG";
+    private String mLocation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mLocation = Utility.getPreferredLocation(this);
         Log.i(LOG_TAG, "onCreate-->");
         setContentView(R.layout.activity_main);
         getSupportFragmentManager().beginTransaction()
-                .add(R.id.container, new ForecastFragment()).commit();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.i(LOG_TAG, "onDestory-->");
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.i(LOG_TAG, "onStop-->");
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.i(LOG_TAG, "onPause-->");
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.i(LOG_TAG, "onResume-->");
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.i(LOG_TAG, "onStart-->");
+                .add(R.id.container, new ForecastFragment(), FORECASTFRAGMENT_TAG)
+                .commit();
     }
 
 
@@ -98,6 +73,21 @@ public class MainActivity extends ActionBarActivity {
             Log.d(LOG_TAG, "Couldn't call " + location + ", no receiving apps installed!");
         }
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        String location = Utility.getPreferredLocation(this);
+        // update the location in our second pane using the fragment manager
+        if (location != null & !location.equals(mLocation)) {
+            ForecastFragment ff = (ForecastFragment) getSupportFragmentManager()
+                    .findFragmentByTag(FORECASTFRAGMENT_TAG);
+            if (null != ff) {
+                ff.onLocationChanged();
+            }
+            mLocation = location;
+        }
     }
 
 }
