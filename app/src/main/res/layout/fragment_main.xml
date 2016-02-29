@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ysy.myweather.MainActivity">
+    tools:context="com.ysy.myweather.ForecastFragment">
 
     <ListView
         android:id="@+id/listview_forecast"
         style="@style/ForecastListStyle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:divider="@null" />
 
 </FrameLayout>
