@@ -39,6 +39,9 @@ public class MainActivity extends ActionBarActivity implements ForecastFragment.
             mTwoPane = false;
         }
 
+        ForecastFragment forecastFragment = ((ForecastFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.fragment_forecast));
+        forecastFragment.setUseTodayLayout(!mTwoPane);
     }
 
 
@@ -112,7 +115,7 @@ public class MainActivity extends ActionBarActivity implements ForecastFragment.
 
     @Override
     public void onItemSelected(Uri contentUri) {
-        if(mTwoPane){
+        if (mTwoPane) {
             // In two-pane mode, show the detail view in this activity by
             // adding or replacing the detail fragment using a
             // fragment transaction.
@@ -124,8 +127,7 @@ public class MainActivity extends ActionBarActivity implements ForecastFragment.
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.weather_detail_container, fragment, DETAILFRAGMENT_TAG)
                     .commit();
-        }
-        else {
+        } else {
             Intent intent = new Intent(this, DetailActivity.class)
                     .setData(contentUri);
             startActivity(intent);
