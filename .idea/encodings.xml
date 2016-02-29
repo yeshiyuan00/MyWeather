@@ -10,10 +10,10 @@
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestUtilities.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/data/TestWeatherContract.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ysy/myweather/utils/PollingCheck.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/FetchWeatherTask.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/ForecastAdapter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/Utility.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/data/WeatherProvider.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/service/FetchWeatherTask.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" charset="GBK" />

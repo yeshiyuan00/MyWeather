@@ -19,6 +19,7 @@ import android.database.Cursor;
 import android.test.AndroidTestCase;
 
 import com.ysy.myweather.data.WeatherContract;
+import com.ysy.myweather.service.FetchWeatherTask;
 
 public class TestFetchWeatherTask extends AndroidTestCase {
     static final String ADD_LOCATION_SETTING = "Sunnydale, CA";
