@@ -13,7 +13,10 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/ForecastAdapter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/Utility.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/data/WeatherProvider.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/service/FetchWeatherTask.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/sync/SunshineAuthenticator.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/sync/SunshineAuthenticatorService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/sync/SunshineSyncAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ysy/myweather/sync/SunshineSyncService.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" charset="GBK" />
@@ -35,6 +38,8 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/values-sw600dp/refs.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values-v14" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values-v21" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/authenticator.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/syncadapter.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
